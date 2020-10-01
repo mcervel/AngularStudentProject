@@ -1,0 +1,11 @@
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.deps.json
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.runtimeconfig.json
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.runtimeconfig.dev.json
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfo.cs
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.genruntimeconfig.cache

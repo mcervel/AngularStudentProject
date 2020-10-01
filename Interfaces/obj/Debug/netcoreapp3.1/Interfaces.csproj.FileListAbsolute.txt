@@ -1,0 +1,12 @@
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CopyComplete
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb

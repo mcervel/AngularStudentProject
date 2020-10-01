@@ -1,0 +1,81 @@
+<p *ngIf="!students"><em>Loading data...</em></p>
+
+<fieldset *ngIf='students && students.length'>
+  <legend><strong>Pregled i upravljanje zasebnim studentom</strong></legend>
+  <div class="table-title">
+    <button type="button" class="btn btn-primary" (click)="openAddModal(content)">
+      Dodaj novog studenta
+    </button>
+  </div>
+  <table class='table table-striped table-hover'>
+    <thead>
+      <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>JMBAG</th>
+        <th>Studij</th>
+        <th>Godina studija</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let student of students'>
+        <td>{{student.ime}}</td>
+        <td>{{student.prezime}}</td>
+        <td>{{student.jmbag}}</td>
+        <td>{{student.studij}}</td>
+        <td>{{student.godinaStudija}}</td>
+        <td>{{student.email}}</td>
+        <td>
+          <button (click)='openUpdateModal(content, student)' type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
+          <button (click)='deleteStudent(student.idStudent)' type="button" class="btn btn-danger"><i
+              class="fa fa-trash"></i></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">{{modalWindowAction}} studenta</h4>
+    <button type="button" class="close pb-3" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form class="form" (ngSubmit)="onSubmit()">
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Ime</label>
+          <input type="text" name="ime" [(ngModel)]="student.ime" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Prezime</label>
+          <input type="text" name="prezime" [(ngModel)]="student.prezime" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>JMBAG</label>
+          <input type="text" name="jmbag" [(ngModel)]="student.jmbag" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Studij</label>
+          <input type="text" name="studij" [(ngModel)]="student.studij" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Godina studija</label>
+          <input type="number" name="godinaStudija" [(ngModel)]="student.godinaStudija" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" [(ngModel)]="student.email" class="form-control" required>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="addUpdateStudent()">{{modalWindowAction}} studenta</button>
+        <button type="button" class="btn btn-light" (click)="closeModal()">Odustani</button>
+      </div>
+    </form>
+  </div>
+</ng-template>
