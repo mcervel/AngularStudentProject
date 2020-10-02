@@ -10,3 +10,15 @@ C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Inte
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CopyComplete
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
+C:\FirstAngularApp\AngularStudentProject\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\FirstAngularApp\AngularStudentProject\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\FirstAngularApp\AngularStudentProject\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\FirstAngularApp\AngularStudentProject\Interfaces\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\FirstAngularApp\AngularStudentProject\Interfaces\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CopyComplete
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\FirstAngularApp\AngularStudentProject\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb

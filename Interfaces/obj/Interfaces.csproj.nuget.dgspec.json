@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj": {}
+    "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj": {
+    "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Lijeposava\\.nuget\\packages\\",
-        "outputPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\obj\\",
+        "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
+        "outputPath": "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lijeposava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
-                "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
+              "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
+                "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
               }
             }
           }
@@ -63,21 +64,22 @@
         }
       }
     },
-    "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
+    "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+        "projectUniqueName": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
         "projectName": "StudentDataAccessLayer",
-        "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Lijeposava\\.nuget\\packages\\",
-        "outputPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\obj\\",
+        "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
+        "outputPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lijeposava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

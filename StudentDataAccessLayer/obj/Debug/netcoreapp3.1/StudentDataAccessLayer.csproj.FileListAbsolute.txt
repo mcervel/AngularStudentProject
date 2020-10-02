@@ -9,3 +9,15 @@ C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcor
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
 C:\BACKUP\Prezentacije\Posao\BasicWebAPI\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.genruntimeconfig.cache
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.deps.json
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.runtimeconfig.json
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.runtimeconfig.dev.json
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.csprojAssemblyReference.cache
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfoInputs.cache
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfo.cs
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
+C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.genruntimeconfig.cache

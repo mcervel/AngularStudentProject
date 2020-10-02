@@ -5639,24 +5639,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lijeposava\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\matej\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\FirstAngularApp\\AngularStudentProject\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\Lijeposava\\.nuget\\packages\\",
-      "outputPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Services\\obj\\",
+      "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
+      "outputPath": "C:\\FirstAngularApp\\AngularStudentProject\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lijeposava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5668,11 +5669,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj": {
-              "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\Interfaces\\Interfaces.csproj"
+            "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj": {
+              "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\Interfaces\\Interfaces.csproj"
             },
-            "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
-              "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
+            "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
+              "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
             }
           }
         }
@@ -5703,5 +5704,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.net.primitives/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.net.primitives/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.runtime.handles/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.runtime.handles/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.runtime.interopservices/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.runtime.interopservices/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    }
+  ]
 }

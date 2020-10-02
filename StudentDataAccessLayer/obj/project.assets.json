@@ -5672,24 +5672,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lijeposava\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\matej\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+      "projectUniqueName": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
       "projectName": "StudentDataAccessLayer",
-      "projectPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
-      "packagesPath": "C:\\Users\\Lijeposava\\.nuget\\packages\\",
-      "outputPath": "C:\\BACKUP\\Prezentacije\\Posao\\BasicWebAPI\\StudentDataAccessLayer\\obj\\",
+      "projectPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+      "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
+      "outputPath": "C:\\FirstAngularApp\\AngularStudentProject\\StudentDataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lijeposava\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5745,5 +5746,79 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/4.5.0/system.runtime.compilerservices.unsafe.4.5.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.globalization/4.3.0/system.globalization.4.3.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/system.globalization/4.3.0/system.globalization.4.3.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.reflection.primitives/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.reflection.primitives/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.threading.tasks/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.threading.tasks/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.private.datacontractserialization/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.private.datacontractserialization/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.security.securestring/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.security.securestring/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.diagnostics.tools/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.diagnostics.tools/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
+    }
+  ]
 }
