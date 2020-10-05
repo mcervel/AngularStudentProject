@@ -1,6 +1,3 @@
-To fix:
-- validation
-
-The following 2 cases should not be allowed:
-- add new student when the form is empty 
-- updating a student with an empty input field
+To do:
+- validating min and max values for year of study
+- validating JMBAG as a number
