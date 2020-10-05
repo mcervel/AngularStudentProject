@@ -14,7 +14,6 @@ C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcor
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.runtimeconfig.dev.json
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.dll
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\bin\Debug\netcoreapp3.1\StudentDataAccessLayer.pdb
-C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.csprojAssemblyReference.cache
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfoInputs.cache
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.AssemblyInfo.cs
 C:\FirstAngularApp\AngularStudentProject\StudentDataAccessLayer\obj\Debug\netcoreapp3.1\StudentDataAccessLayer.csproj.CoreCompileInputs.cache

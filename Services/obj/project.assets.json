@@ -5704,37 +5704,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
-    },
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.net.primitives/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.net.primitives/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
-    },
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.runtime.handles/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.runtime.handles/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
-    },
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.runtime.interopservices/index.json' and will be replaced.\r\nThe content at 'https://api.nuget.org/v3-flatcontainer/system.runtime.interopservices/index.json' is not a valid JSON object.\r\n  The JSON document is not an object."
-    },
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "An invalid cache entry was found for URL 'https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg' and will be replaced.\r\nThe nupkg at 'https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg' is not valid.\r\n  End of Central Directory record could not be found."
-    }
-  ]
+  }
 }

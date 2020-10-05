@@ -1,7 +1,8 @@
-import { HttpClientModule, HttpClient, HttpHeaders } from '@angular/common/http';  
-import { Component, Inject, OnInit} from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Component, Inject, OnInit } from '@angular/core';
 import { IStudent } from './student'
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgForm } from '@angular/forms';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -19,86 +20,87 @@ export class StudentTableComponent implements OnInit {
 
   _baseUrl: string
   students: IStudent[]
-  student: IStudent = new Student()
+  student: IStudent
   modalWindowAction: string
-  
+  emailPattern: string
+
   constructor(private httpService: HttpClient, @Inject('BASE_URL') baseUrl: string, private modalService: NgbModal) {
     this._baseUrl = baseUrl + 'api/students'
-   }
+  }
 
   ngOnInit() {
+    this.student = new Student()
+    this.emailPattern = '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$'
     this.getStudents()
   }
 
-  getStudents():void{
+  getStudents() {
     this.httpService.get(this._baseUrl).subscribe(data =>
-    this.students = data as IStudent[]
+      this.students = data as IStudent[]
     )
   }
 
-  deleteStudent(idStudent:String):void{
-    this.httpService.delete(this._baseUrl + '/' + idStudent).subscribe(()=>{
+  deleteStudent(idStudent: String) {
+    this.httpService.delete(this._baseUrl + '/' + idStudent).subscribe(() => {
       this.getStudents()
     })
   }
 
-  openVerticallyCenteredModal(content):void {
+  openVerticallyCenteredModal(content) {
     this.modalService.open(content, { centered: true });
   }
 
-  openUpdateModal(content, student: IStudent){
-    this.httpService.get(this._baseUrl + '/' + student.idStudent).subscribe(data => {
-      this.student = data as IStudent
-    })
-    
-    this.modalWindowAction = 'Ažuriraj'
-    this.openVerticallyCenteredModal(content)
-  }
+  openModal(content, student?: IStudent) {
+    this.student = new Student()
 
-  openAddModal(content){
-    this.modalWindowAction = 'Dodaj'
-    this.openVerticallyCenteredModal(content)
-  }
-
-  addUpdateStudent():void{
-    if (this.modalWindowAction == 'Dodaj') {
-      this.addStudent()
+    if (student) {
+      this.modalWindowAction = 'Ažuriraj'
+      this.httpService.get(this._baseUrl + '/' + student.idStudent).subscribe(data => {
+        this.student = data as IStudent
+      })  
     }else{
-      this.updateStudent(this.student)
+      this.modalWindowAction = 'Dodaj'
     }
+
+    this.openVerticallyCenteredModal(content)
   }
 
-  addStudent():void {
+  addStudent() {
     this.httpService.post(this._baseUrl, this.student, httpOptions).subscribe(() => {
-      this.resetModalWindow()
+      this.resetStudents()
     })
   }
 
-  updateStudent(student: IStudent):void {
+  updateStudent(student: IStudent) {
     this.httpService.put(this._baseUrl + '/' + student.idStudent, student, httpOptions).subscribe(() => {
-      this.resetModalWindow()
+      this.resetStudents()
     })
   }
   
-  resetModalWindow():void{
+  resetStudents() {
     this.getStudents()
-    this.closeModal()
+    this.modalService.dismissAll()
   }
 
-  closeModal():void{
-    this.student = new Student()
-    this.modalService.dismissAll()
+  onSubmit(f: NgForm) {
+    if (f.valid) {
+      if (this.modalWindowAction == 'Dodaj') {
+        this.addStudent()
+      } else {
+        this.updateStudent(this.student)
+      }
+    }
   }
 
 }
 
-export class Student implements IStudent{
-  constructor(){}
+export class Student implements IStudent {
+  constructor() { }
   idStudent: string;
-    ime: string;
-    prezime: string;
-    jmbag: string;
-    studij: string;
-    godinaStudija: number;
-    email: string;
+  ime: string;
+  prezime: string;
+  jmbag: string;
+  studij: string;
+  godinaStudija: number;
+  email: string;
 }

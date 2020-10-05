@@ -2,8 +2,8 @@
 
 <fieldset *ngIf='students && students.length'>
   <legend><strong>Pregled i upravljanje zasebnim studentom</strong></legend>
-  <div class="table-title">
-    <button type="button" class="btn btn-primary" (click)="openAddModal(content)">
+  <div class="table-title pb-3">
+    <button type="button" class="btn btn-primary" (click)="openModal(content)">
       Dodaj novog studenta
     </button>
   </div>
@@ -28,7 +28,8 @@
         <td>{{student.godinaStudija}}</td>
         <td>{{student.email}}</td>
         <td>
-          <button (click)='openUpdateModal(content, student)' type="button" class="btn btn-success"><i class="fa fa-edit"></i></button>
+          <button (click)='openModal(content, student)' type="button" class="btn btn-success"><i
+              class="fa fa-edit"></i></button>
           <button (click)='deleteStudent(student.idStudent)' type="button" class="btn btn-danger"><i
               class="fa fa-trash"></i></button>
         </td>
@@ -40,41 +41,76 @@
 <ng-template #content let-modal>
   <div class="modal-header">
     <h4 class="modal-title">{{modalWindowAction}} studenta</h4>
-    <button type="button" class="close pb-3" aria-label="Close" (click)="closeModal()">
+    <button type="button" class="close pb-3" aria-label="Close" (click)="modal.close()">
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
   <div class="modal-body">
-    <form class="form" (ngSubmit)="onSubmit()">
+    <form #f="ngForm" class="form" (ngSubmit)="onSubmit(f)">
       <div class="modal-body">
         <div class="form-group">
-          <label>Ime</label>
-          <input type="text" name="ime" [(ngModel)]="student.ime" class="form-control" required>
+          <label for="ime">Ime</label>
+          <input [class.field-error] = "f.submitted && ime.invalid" id="ime" type="text" name="ime" [(ngModel)]="student.ime" class="form-control" #ime="ngModel" required>
+          <div class="error-description" *ngIf="ime.invalid && f.submitted">
+            <div *ngIf="ime.errors.required">
+              Ime je obvezno polje
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label>Prezime</label>
-          <input type="text" name="prezime" [(ngModel)]="student.prezime" class="form-control" required>
+          <label for="prezime">Prezime</label>
+          <input [class.field-error] = "f.submitted && prezime.invalid" type="text" id="prezime" name="prezime" [(ngModel)]="student.prezime" class="form-control" #prezime="ngModel"
+            required>
+          <div class="error-description" *ngIf="prezime.invalid && f.submitted">
+            <div *ngIf="prezime.errors.required">
+              Prezime je obvezno polje
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label>JMBAG</label>
-          <input type="text" name="jmbag" [(ngModel)]="student.jmbag" class="form-control" required>
+          <label for="jmbag">JMBAG</label>
+          <input [class.field-error] = "f.submitted && jmbag.invalid" type="text" id="jmbag" name="jmbag" [(ngModel)]="student.jmbag" class="form-control" #jmbag="ngModel" required>
+          <div class="error-description" *ngIf="jmbag.invalid && f.submitted">
+            <div *ngIf="jmbag.errors.required">
+              JMBAG je obvezno polje
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label>Studij</label>
-          <input type="text" name="studij" [(ngModel)]="student.studij" class="form-control" required>
+          <label for="studij">Studij</label>
+          <input [class.field-error] = "f.submitted && studij.invalid" type="text" id="studij" name="studij" [(ngModel)]="student.studij" class="form-control" #studij="ngModel" required>
+          <div class="error-description" *ngIf="studij.invalid && f.submitted">
+            <div *ngIf="studij.errors.required">
+              Studij je obvezno polje
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label>Godina studija</label>
-          <input type="number" name="godinaStudija" [(ngModel)]="student.godinaStudija" class="form-control" required>
+          <label for="godinaStudija">Godina studija</label>
+          <input [class.field-error] = "f.submitted && godinaStudija.invalid" type="number" id="godinaStudija" name="godinaStudija" [(ngModel)]="student.godinaStudija" class="form-control"
+            #godinaStudija="ngModel" min=1 max=6 required>
+          <div class="error-description" *ngIf="godinaStudija.invalid && f.submitted">
+            <div *ngIf="godinaStudija.errors.required">
+              Godina studija je obvezno polje
+            </div>
+          </div>
         </div>
         <div class="form-group">
-          <label>Email</label>
-          <input type="email" name="email" [(ngModel)]="student.email" class="form-control" required>
+          <label for="email">Email</label>
+          <input [class.field-error] = "f.submitted && email.invalid" [pattern]="emailPattern" type="email" id="email" name="email" [(ngModel)]="student.email" class="form-control" #email="ngModel" required>
+          <div class="error-description" *ngIf="email.invalid && f.submitted">
+            <div *ngIf="email.errors.required">
+              Email je obvezno polje
+            </div>
+            <div *ngIf="email.errors.pattern">
+              Molimo unesite ispravnu email adresu
+            </div>
+          </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" (click)="addUpdateStudent()">{{modalWindowAction}} studenta</button>
-        <button type="button" class="btn btn-light" (click)="closeModal()">Odustani</button>
+        <button type="submit" class="btn btn-primary">{{modalWindowAction}} studenta</button>
+        <button type="button" class="btn btn-light" (click)="modal.close()">Odustani</button>
       </div>
     </form>
   </div>
